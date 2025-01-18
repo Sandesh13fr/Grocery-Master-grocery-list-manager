@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica","Arial", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-title img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+i{
+    color: blue;
+    font-size: 23px;
+    margin-right: 3px;
+}
+h1 {
+  font-size: 24px;
+  font-weight: boldery;
+}
+
+.tagline {
+  color: #9370db;
+  font-size: 14px;
+}
+
+.grocery-list h2 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  resize: none;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.remove-btn {
+  background: white;
+  border: 1px solid #6a5acd;
+  color: #6a5acd;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.remove-btn:hover {
+  background: #6a5acd;
+  color: white;
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+
+  i{
+    color: azure;
+    font-size: 21px;
+    margin-right: 3px;
+}
+}
+
+.action-btn {
+  background: #6a5acd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+}
+
+.action-btn:hover {
+  background: #4b0082;
+}
+
+.quit {
+  background: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #888;
+  font-size: 14px;
+}
+
+.logo-text {
+  color: #6a5acd;
+  font-weight: bold;
+}
+
+@media(max-width:600px) {
+    textarea {
+        width: 95%;
+    }
+}

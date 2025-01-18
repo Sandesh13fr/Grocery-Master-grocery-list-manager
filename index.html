@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Master</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon">
+<link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon//favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon//favicon-16x16.png">
+<link rel="manifest" href="./assets/favicon//manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <div class="logo-title">
+            <img src="./assets/shopping-bag.png" alt=""></i>
+          <h1>Grocery Master</h1>
+        </div>
+        <p class="tagline">YOUR PERSONAL GROCERY LIST MANAGER</p>
+      </header>
+      <section class="grocery-list">
+        <h2>My Groceries</h2>
+        <textarea placeholder="+ Add new item..." id="userInput"></textarea>
+        <div class="items" id="items"></div>
+      </section>
+      <div class="actions">
+        <button class="action-btn" id="Download"><i class="fa-solid fa-print"></i> Download</button>
+        <button class="action-btn" id="Share"><i class="fa-solid fa-share"></i> Share</button>
+        <button class="action-btn quit" id="quit"><i class="fa-solid fa-right-from-bracket"></i>Quit</button>
+      </div>
+      <footer>
+        <h1>Made with 💖 by Sandesh</h1>
+      </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
